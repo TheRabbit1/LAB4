@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab3作業</title>
+    <link rel = "stylesheet" href = "style.css">
+    <style>
+      .show-me{
+        background: #ddd;
+        font: size 80px;
+        padding: 40px;
+        display: none;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+     
+     <div id = "header">
+      <h1 class="head">Welcome to the_Rabbit's page</h1>
+     </div>
+
+     <div id = "Wrapper">
+        <div id = "BoxA">
+          <img src = stich.jpg alt = "史迪奇圖片">
+        </div>
+        <div id="BoxB">
+          
+          
+          <h2 class="head">自我介紹</h2>
+          <p class="boxB">HEllO~~~~~~ </p>
+          <p class="boxB">我是資工四甲的徐銘澤</p>
+          <p class="boxB">興趣是看漫畫</p> 
+          <p class="boxB">雖然不是什麼正能量興趣但真的很快樂(  。∇゜)</p>
+          
+        
+          <input type="A" onclick=" location.href = 'https://therabbit1.github.io/LAB3-test/' "  value="點此查看本網站GitHub檔案"  />
+          
+        </div><div class="show-bird">
+          <button class="btn btn-danger btnClick">Lucky bird</button>
+          <div class="show-me">
+           <img src = bird.gif alt="鸚鵡">
+          </div>
+        </div>
+
+       
+
+        
+
+     </div>
+
+
+     <div class="show-bird">
+     
+      <div class="show-me">
+       <img src = bird.gif alt="鸚鵡">
+      </div>
+  
+</div>
+     <script>
+      $(document).ready(function() {
+      
+      $('.btnClick').click(function(){
+       $('.show-me').toggle();
+  
+      });
+     
+  });
+     </script>
+  
+    
+    
+  
+
+    </body>
+</html>

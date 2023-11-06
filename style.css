@@ -1,0 +1,53 @@
+
+body{
+  font-family:標楷體;
+  background-color:beige;
+}
+#HEADER {
+  text-align: center;
+  margin:0 auto;
+  width:900px;
+  height:400px;
+  background-color:blanchedalmond;
+}
+
+
+#Wrapper{
+  margin:0 auto;
+  width:900px;
+  overflow:hidden; 
+  padding-top:30px;
+  padding-bottom:30px; 
+  display: flex;
+  flex-direction: row;
+}
+
+#BoxA{
+  width:500px;
+  float: left;
+  margin-left:30px;
+}
+
+#BoxB{
+  width:400px;
+  float: left;
+  margin-left:3px;
+}
+
+
+.head{
+  text-align:center;
+}
+
+.boxB{
+  text-align:center;
+  text-size-adjust: 40px;
+}
+
+.input[type = "A"]:hover{
+  width:160px;
+  border:2px solid yellow;
+  color:yellow;
+}
+
+
